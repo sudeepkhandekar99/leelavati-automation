@@ -247,6 +247,29 @@ p.page-description {
 /* ===================================
     2.1 Button CSS
 ====================================== */
+.read-more-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  /* font-weight: 700; */
+  color: #fff;
+  background-color: #dc6041;
+  border: 2px solid #dc6041;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: all 0.2s linear;
+  margin-bottom: 17px;
+  letter-spacing: 2px;
+}
+
+.read-more-button:hover {
+  background-color: #fff;
+  color: #dc6041;
+}
 
 a.button {
   font-family: "Roboto", sans-serif;

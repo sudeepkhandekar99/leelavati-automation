@@ -1,6 +1,7 @@
 // Data
 import { Fragment } from 'react';
 import servicesData from '../../data/services.json';
+import { Button, Link as ScrollLink } from "react-scroll";
 
 // -----------------------
 
@@ -18,29 +19,28 @@ function Services() {
           {servicesData.servicesBoxes.map((serv, i) => (
             <Fragment key={'service-box-' + i}>
               <div
-                className={`one_third ${
-                  (i + 1) % 3 === 0 ||
-                  servicesData.servicesBoxes.length === i + 1
+                className={`one_third ${(i + 1) % 3 === 0 ||
+                    servicesData.servicesBoxes.length === i + 1
                     ? 'last'
                     : ''
-                }`}
+                  }`}
               >
                 <div
-                  className={`service-holder ${
-                    serv.bottomSpace ? 'bottom-50' : ''
-                  }`}
+                  className={`service-holder ${serv.bottomSpace ? 'bottom-50' : ''
+                    }`}
                 >
                   <p className="service-num">{serv.order}</p>
                   <div className="service-txt">
                     <h4>{serv.servTitle}</h4>
                     <p>{serv.desc}</p>
+                    <a><button className="read-more-button"> Read More </button></a>
                   </div>
                 </div>
               </div>
               {((i + 1) % 3 === 0 ||
                 servicesData.servicesBoxes.length === i + 1) && (
-                <div className="clear"></div>
-              )}
+                  <div className="clear"></div>
+                )}
             </Fragment>
           ))}
         </div>
