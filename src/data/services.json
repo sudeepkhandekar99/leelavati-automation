@@ -1,0 +1,25 @@
+{
+  "id": "01",
+  "title": "SERVICES",
+  "description": "WHAT WE DO",
+  "servicesBoxes": [
+    {
+      "order": "I",
+      "servTitle": "Factory Automation",
+      "desc": "Automation takes a step further mechanization that uses a particular machinery mechanism aided human operators for performing a task. Mechanization is the manual operation of a task using powered machinery that depends on human decision-making.",
+      "bottomSpace": true
+    },
+    {
+      "order": "II",
+      "servTitle": "Home & Building Automation ",
+      "desc": "Our smart home automation solutions enable centralised control of lighting devices, audio or video systems, kitchen appliances, air conditioning and heating, and much more used in the home.",
+      "bottomSpace": true
+    },
+    {
+      "order": "III",
+      "servTitle": "Internet of Things Solution",
+      "desc": "IOT encourages businesses to reconsider how they approach their businesses, industries, and markets, and it provides them with the tools to improve their business strategies.",
+      "bottomSpace": true
+    }
+  ]
+}
