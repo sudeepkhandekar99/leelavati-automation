@@ -4,7 +4,8 @@ import homeData from "../../data/home.json";
 // Images
 import dots from "../../assets/images/dots.png";
 import iconLogo from "../../assets/images/icon_logo.png";
-import mainImage01 from "../../assets/images/home/main_img_01.jpg";
+// import mainImage01 from "../../assets/images/home/main_img_01.jpg";
+import mainImage01 from "../../assets/images/smart-industry/2.avif";
 import { markdownToHTML } from "../../utils/converter";
 import { Link as ScrollLink } from "react-scroll";
 
