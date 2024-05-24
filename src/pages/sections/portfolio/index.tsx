@@ -57,6 +57,7 @@ function Portfolio() {
   };
 
   return (
+    // TODO: Might use in the future 
     <section
       id="portfolio"
       className="section"
@@ -72,7 +73,6 @@ function Portfolio() {
           <h2 className="entry-title">{portfolioData.title}</h2>
           <p className="page-description">{portfolioData.description}</p>
         </div>
-
         <div className="content-wrapper">
           <div className="one_half">
             <h3

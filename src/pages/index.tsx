@@ -42,14 +42,14 @@ function Landing() {
       <div id="content" className="site-content center-relative">
         <HomeSection />
         <Services />
-        <Portfolio />
-        <Clients />
+        {/* <Portfolio /> */}
         <News />
-        <Skills />
-        <Team />
-        <Milestones />
-        <About />
-        <Pricing />
+        <Clients />
+        {/* <Skills />
+        <Team /> */}
+        {/* <Milestones /> */}
+        {/* <About /> */}
+        {/* <Pricing /> */}
         <Contact />
       </div>
     </>

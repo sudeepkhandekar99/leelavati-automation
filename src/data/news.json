@@ -1,33 +1,33 @@
 {
-  "id": "04",
-  "title": "NEWS",
-  "description": "UPDATES",
+  "id": "02",
+  "title": "PRODUCTS",
+  "description": "CHECK OUR BESTSELLERS",
   "articles": [
     {
       "to": "/single",
-      "tags": ["Design", "Music"],
+      "tags": ["G34301149115"],
       "info": {
-        "title": "How to write rogue mote of dust love",
-        "date": "September 10, 2018",
-        "author": "John Smith"
+        "title": "1 CHANNEL SPDT RELAY OUTPUT MODULE",
+        "date": "LOAD UP TO 10 A/250 V AC",
+        "author": "CARLO GAVAZZI"
       }
     },
     {
       "to": "/single",
-      "tags": ["CSS", "Video"],
+      "tags": ["G34302249230"],
       "info": {
-        "title": "Epochs encyclopa galactica stellar",
-        "date": "September 10, 2018",
-        "author": "John Smith"
+        "title": "2 CHANNEL SPDT RELAY OUTPUT MODULE",
+        "date": "LOAD UP TO 10 A/250 V AC",
+        "author": "CARLO GAVAZZI"
       }
     },
     {
       "to": "/single",
-      "tags": ["Music"],
+      "tags": ["G34304443824"],
       "info": {
-        "title": "Connection of paper and web makes",
-        "date": "September 10, 2018",
-        "author": "John Smith"
+        "title": "4 CHANNEL SPST RELAY OUTPUT MODULE",
+        "date": "LOAD UP TO 5 A/250 V AC",
+        "author": "CARLO GAVAZZI"
       }
     }
   ]

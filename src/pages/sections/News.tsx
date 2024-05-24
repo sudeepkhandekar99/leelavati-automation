@@ -2,9 +2,9 @@
 import { Link as RouterLink } from 'react-router-dom';
 
 // Images
-import img1 from '../../assets/images/news/blog_img_01.jpg';
-import img2 from '../../assets/images/news/blog_img_02.jpg';
-import img3 from '../../assets/images/news/blog_img_03.jpg';
+import img1 from '../../assets/images/smart-industry/product_1.png';
+import img2 from '../../assets/images/smart-industry/product_1.png';
+import img3 from '../../assets/images/smart-industry/product_1.png';
 
 // Data
 import newsData from '../../data/news.json';
