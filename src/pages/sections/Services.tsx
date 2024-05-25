@@ -2,8 +2,13 @@
 import { Fragment } from 'react';
 import servicesData from '../../data/services.json';
 import { Button, Link as ScrollLink } from "react-scroll";
+import { Link as RouterLink } from 'react-router-dom';
+
 
 // -----------------------
+const handleClick = () => {
+  window.scroll(0, 0);
+};
 
 function Services() {
   return (
@@ -33,7 +38,9 @@ function Services() {
                   <div className="service-txt">
                     <h4>{serv.servTitle}</h4>
                     <p>{serv.desc}</p>
-                    <a><button className="read-more-button"> Read More </button></a>
+                    <RouterLink to={serv.to} onClick={handleClick}>
+                      <button className="read-more-button"> Read More </button>
+                  </RouterLink>
                   </div>
                 </div>
               </div>

@@ -17,6 +17,14 @@
       "text": "Clients"
     },
     {
+      "to": "about",
+      "text": "About"
+    },
+    {
+      "to": "milestones",
+      "text": "Milestones"
+    },
+    {
       "to": "contact",
       "text": "Contact"
     }

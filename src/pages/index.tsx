@@ -45,10 +45,10 @@ function Landing() {
         {/* <Portfolio /> */}
         <News />
         <Clients />
-        {/* <Skills />
-        <Team /> */}
-        {/* <Milestones /> */}
-        {/* <About /> */}
+        {/* <Skills /> */}
+        {/* <Team /> */}
+        <About />
+        <Milestones />
         {/* <Pricing /> */}
         <Contact />
       </div>

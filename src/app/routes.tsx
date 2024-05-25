@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Single from '../pages/blog/Single';
 import Footer from '../pages/Footer';
 import Blog from '../pages/blog/Blog';
+import FactoryAutomation from '../pages/blog/FactoryAutomation'
 
 // ------------------
 
@@ -50,6 +51,10 @@ const routes: RoutesType[] = [
   {
     path: '/blog',
     element: renderWithNav(<Blog />, false),
+  },
+  {
+    path: '/factory-automation',
+    element: renderWithNav(<FactoryAutomation />, false),
   },
 ];
 
